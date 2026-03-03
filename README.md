@@ -4,6 +4,19 @@
 
 ---
 
+## 快速查看資料（已有現成資料庫）
+
+repo 內已附上爬取好的 `fbdata.db`，不需要重新執行爬蟲，直接啟動 API 即可查看資料：
+
+```bash
+pip install fastapi uvicorn
+python api.py
+```
+
+開啟瀏覽器前往 `http://localhost:8000/docs` 即可使用互動式查詢介面。
+
+---
+
 ## 環境需求
 
 - Python 3.10+
