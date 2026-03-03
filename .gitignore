@@ -1,0 +1,21 @@
+# 環境與套件
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Facebook 登入憑證（勿上傳）
+session.json
+.env
+
+# 備份資料庫
+fbdata_backup.db
+
+# 編輯器 / 系統
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
+
+# Claude Code 暫存
+.claude/
